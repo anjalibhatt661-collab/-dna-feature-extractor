@@ -43,3 +43,12 @@ GC%: 50.79
 Anjali Bhatt 
 B.Tech Bioinformatics, IILM University
 Batch 2025-2029
+
+## What I Learned
+- How to read and parse FASTA format files
+- Calculating GC content and nucleotide composition
+- K-mer frequency analysis and its biological significance
+- Codon usage patterns in bacterial genomes
+- Data visualization with matplotlib
+- Building a command line tool in Python
+- Version control with Git and GitHub
