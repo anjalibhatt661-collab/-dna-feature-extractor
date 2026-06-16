@@ -19,6 +19,9 @@ for seq_id, seq in sequences.items():
 
     # Basic Stats
     stats = basic_stats(seq)
+    if stats is None:
+        print("Warning: empty sequence, skipping.")
+        continue
     print(f"Length:  {stats['length']} bases")
     print(f"A: {stats['A']}  T: {stats['T']}  G: {stats['G']}  C: {stats['C']}")
     print(f"GC%:    {stats['GC%']}")
